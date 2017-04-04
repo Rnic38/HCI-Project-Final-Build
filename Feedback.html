@@ -1,0 +1,180 @@
+<html>
+   <head>
+      <title>Feedback</title>
+          
+<style> 
+
+body {
+    background-color: dimgrey;
+	text-align:center;
+	margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px
+    background-color: #f1f1f1
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: underline;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+table, th { border: px solid black; 
+margin: 10px 10px 10px 10px;
+    text-align: center;
+	display: inline-block;
+	
+} 
+td:hover{
+    color: white;
+}
+img:hover {
+    width: 250px;
+    height: 200px;
+    
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: dimgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+</style>
+
+   </head>
+   
+   <body>
+     
+       
+<ul>
+  <div align="left"></</div>
+    <li><a href="home.html"> Home Menu</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="contact.html">Contact</a></li>
+	  <li><a class="active" href="feedback.html">Feedback</a></li>
+	 <li><a href="register.html">Register</a></li>
+	  <li><a href="login.html">Login</a></li>
+	  <div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+    <a href="Animals/animals.html">Animals</a>
+    <a href="Cityscape/cityscape.html">Cityscape</a>
+    <a href="Space/space.html">Space</a>
+	<a href="Cars/cars.html">Cars</a>
+	<a href="Guns/guns.html">Guns</a>
+	<a href="Videogames/videogames.html">Video Games</a>
+	<a href="Science/science.html">Science</a>
+	<a href="Sports/sports.html">Sports</a>
+	<a href="Cartoon/cartoon.html">Cartoon</a>
+	<a href="Food_Drink/Food_drink.html">Food & Drink</a>
+	<a href="Scifi/scifi.html">Sci-fi</a>
+	<a href="Nature/nature.html">Nature</a>
+  </div>
+</div>
+	
+	
+</ul>
+		<h1><div align="center"></</div>Feedback</h1>
+		<p>
+		Give us your feedback!
+		</p>
+
+		<table>
+		<tbody>
+		
+		<tr>
+	<th>Username:</th>
+	<td><input type = "text" id = "username" name = "username" /></td>
+		</tr>
+		
+		<tr>
+	<th>Email:</th><br>
+	<td><input type = "text" id = "email" name = "email" /></td>
+		</tr>
+		
+		<tr>
+	<th>Subject:</th>
+	<td><input type = "text" id = "Subject" name = "Subject" /></td>
+		</tr>
+		<tr>
+	<th>Comments</th>
+	
+	<td><textarea rows="4" cols="50"></textarea></td>
+		
+		
+		</tr>
+		
+		</tbody>
+		</table>
+		
+		<div align = "center">
+	<input type="button" id="submitsearch" type="submit" value="Submit"/>
+		</div>
+		
+		<br>
+		
+	
+		</br>
+
+ </body>
+   
+</html>
